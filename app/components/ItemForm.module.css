@@ -1,0 +1,103 @@
+/* app/components/ItemForm.module.css */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.worldTypeContainer {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.select {
+    width: 50%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.raritySelector {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rarityCircle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid black;
+}
+
+.rarityLabel {
+    margin-left: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.textarea {
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 4px;
+    resize: vertical;
+}
+
+.submitButton {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inherentAffixContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.divider {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.affixList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.loadingOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.loadingGif {
+    width: 50px;
+    height: 50px;
+}
